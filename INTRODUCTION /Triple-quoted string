@@ -1,0 +1,13 @@
+const val question = "life, the universe, and everything"
+const val answer = 42
+
+val tripleQuotedString = """
+    #question = "$question"
+    #answer = $answer""".trimMargin("#")
+
+fun main() {
+    println(tripleQuotedString)
+}
+
+// membuat variable berupa const val question dan answer di awal line (val menandakan bahwa sebuah variabel tidak akan bisa diubah ubah)
+// menggabungkan lebih dari satu string dalam val tripleQuotedString dan kemudian menggunakan fungsi trim margin dengan parameter "#" untuk menghilangkan prefix dari question dan answer nya 
