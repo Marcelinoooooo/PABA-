@@ -1,0 +1,6 @@
+val month = "(JAN|FEB|MAR|APR|MAY|JUN|JUL|AUG|SEP|OCT|NOV|DEC)"
+
+fun getPattern(): String = """\d{2} $month \d{4}"""
+
+//membuat sebuah variabel dengan bertipe val dengan month 
+// membuat fungsi fun yang bernama getPattern yang akan menerima parameter berupa input pertama berjumlah max 2 ,untuk month akan diambil dari val month ,dan untuk tahun nya berjumlah digit 4
